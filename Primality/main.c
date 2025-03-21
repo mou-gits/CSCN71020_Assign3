@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <math.h>
 
 void main(void)
 {
@@ -13,7 +14,7 @@ const char* isPrime(int Number)
 		return "Not Prime";
 	}
 	
-	for (int i = 2; i < Number; i++)
+	for (int i = 2; i <= sqrt (Number); i++)
 	{
 		if (Number % i == 0)
 		{
