@@ -3,7 +3,7 @@
 
 void main(void)
 {
-	printf("Result is %s", isPrime(57));
+	printf("Result is %s", isPrime(11));
 }
 
 const char* isPrime(int Number)
